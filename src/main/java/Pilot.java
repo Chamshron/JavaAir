@@ -32,4 +32,8 @@ public class Pilot {
     public void setLicenceNumber(int licenceNumber) {
         this.licenceNumber = licenceNumber;
     }
+
+    public void takeOff(){
+        System.out.println("Ladies and gentleman, this is your captain speaking. We'll shortly depart.");
+    }
 }

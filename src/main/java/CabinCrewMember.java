@@ -18,4 +18,8 @@ public class CabinCrewMember {
     public Rank getRank() {
         return rank;
     }
+
+    public void crewAnnouncement(){
+        System.out.println("Please put on your seatbelts and return your tray table to the upright position");
+    }
 }
