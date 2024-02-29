@@ -19,4 +19,22 @@ public class Flight {
         this.departTime = departTime;
 
     }
+
+    public int returnSeats(){
+        return this.plane.getPlaneCapacity();
+    }
+
+    public int getPassenger(){
+        return this.passengers.size();
+    }
+
+    public int getCrew(){
+        return this.cabinCrewMembers.size();
+    }
+
+    public void addPassenger(Passenger passenger){
+        if(this.plane.getPlaneCapacity() > this.getPassenger()){
+            this.passengers.add(passenger);
+        }
+    }
 }
