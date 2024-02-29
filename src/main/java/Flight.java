@@ -41,5 +41,35 @@ public class Flight {
         }
     }
 
+    public Plane getPlane() {
+        return plane;
+    }
 
+    public Pilot getPilot() {
+        return pilot;
+    }
+
+    public ArrayList<CabinCrewMember> getCabinCrewMembers() {
+        return cabinCrewMembers;
+    }
+
+    public ArrayList<Passenger> getPassengers() {
+        return passengers;
+    }
+
+    public int getFlightNumber() {
+        return flightNumber;
+    }
+
+    public String getDestination() {
+        return destination;
+    }
+
+    public String getDepartAirport() {
+        return departAirport;
+    }
+
+    public String getDepartTime() {
+        return departTime;
+    }
 }
