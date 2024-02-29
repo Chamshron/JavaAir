@@ -1,9 +1,10 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Flight {
     private Pilot pilot;
-    private List<CabinCrewMember> cabinCrewMembers;
-    private List<Passenger> passengers;
+    private ArrayList<CabinCrewMember> cabinCrewMembers;
+    private ArrayList<Passenger> passengers;
     private Plane plane;
     private int flightNumber;
     private String destination;
@@ -17,6 +18,8 @@ public class Flight {
         this.destination = destination;
         this.departAirport = departAirport;
         this.departTime = departTime;
+        this.cabinCrewMembers = new ArrayList<CabinCrewMember>();
+        this.passengers = new ArrayList<Passenger>();
 
     }
 
