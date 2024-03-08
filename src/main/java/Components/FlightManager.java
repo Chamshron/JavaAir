@@ -1,3 +1,5 @@
+package Components;
+
 public class FlightManager {
 
     Flight flight;

@@ -1,7 +1,9 @@
+package Components;
+
 public enum Rank {
     CAPTAIN("Captain"),
     FIRSTOFFICER("First Officer"),
-    FLIGHTATTENDANT("Flight Attendant");
+    FLIGHTATTENDANT("Components.Flight Attendant");
 
     private final String rank;
 

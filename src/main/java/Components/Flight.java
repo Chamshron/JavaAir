@@ -1,5 +1,11 @@
+package Components;
+
+import Components.CabinCrewMember;
+import Components.Passenger;
+import Components.Pilot;
+import Components.Plane;
+
 import java.util.ArrayList;
-import java.util.List;
 
 public class Flight {
     private Pilot pilot;

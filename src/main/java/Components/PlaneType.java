@@ -1,3 +1,5 @@
+package Components;
+
 public enum PlaneType {
     BOEING747(400, 800),
     BOEING777(300,700),

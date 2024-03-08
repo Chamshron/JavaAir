@@ -1,3 +1,5 @@
+package Components;
+
 public class CabinCrewMember {
     private String name;
     private Rank rank;

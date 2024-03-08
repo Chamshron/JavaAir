@@ -1,3 +1,5 @@
+package Components;
+
 public class Pilot {
     private String name;
     private Rank rank;
