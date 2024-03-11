@@ -8,6 +8,7 @@ Creating a model of a system that would allow individuals to manage their flight
 - Passengers exist for a single flight only, no return flights here
 
 **MVP:**
+
 Passenger
 - Has a name
 - Has a number of bags
