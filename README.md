@@ -43,4 +43,7 @@ Passenger
   - Fly the plane, here a method that returns a String
 
 - CabinCrewMember should be able to:
-  - Be able to relay messages, here a method that returns a String 
+  - Be able to relay messages, here a method that returns a String
+ 
+**Next Steps**
+I'd like to use Spring initializr to get the back end going so I can connect it to a React frontend.
